@@ -73,8 +73,10 @@ the ur
 
 ## Things To Do
 ---------------
+```
 0) URL hard coding has to be removed
 1) Delete folder/file
 2) Rename folder/file
 3) upload the folder 
 4) Icons on file according to file MIME type  
+```

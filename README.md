@@ -18,7 +18,7 @@ the urls are
 
 ### GET /files?dir=directory_name
   to get the list of directories under 'dir'  
-### POST 
+###### POST  /files 
   to create folder under the current folder opened currently in browser
   the json format used
   ```

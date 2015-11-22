@@ -1,17 +1,36 @@
 ## this is file nagivator in browser 
 
 ## Requirements :
+```
    vuejs >= 1 & vue-resource (0.1.16) 
-   
+   uikit ( fron-end desgin kit)
+```
+
 the current featutes :
+```
 1) Folder navigation ( backward is also possible )
 2) folder creation 
 3) file upload
+```
+
+
+the urls are
+
+### GET /files?dir=directory_name
+  to get the list of directories under 'dir'  
+### POST 
+  to create folder under the current folder opened currently in browser
+  the json format used
+  ```
+   {
+      name : "new_folde_name",
+      path : "path/folder/to/be/created"
+   }
+  ```
+### POST /uploadFiles 
+  to upload file 
 
 this is json file format expected, 
-
-the ur
-
 ```
 [  
    {  

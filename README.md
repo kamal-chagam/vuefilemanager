@@ -16,7 +16,7 @@ the current featutes :
 
 the urls are
 
-### GET /files?dir=directory_name
+### GET /files
   to get the list of directories under 'dir'  
 ###### POST  /files 
   to create folder under the current folder opened currently in browser
